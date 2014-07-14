@@ -7,10 +7,10 @@ gem 'thin'
 gem 'pry'
 gem 'require_all'
 gem 'rerun'
+gem 'pony', '~> 1.10'
 
 group :test do
   gem 'rspec'
   gem 'capybara'
   gem 'rack-test'
-  gem 'database_cleaner', git: 'https://github.com/bmabey/database_cleaner.git'
 end
